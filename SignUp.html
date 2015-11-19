@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=utf-8" />
+    <title>
+      Sign up 
+    </title>
+    <link href="sign up.css" type="text/css" rel="stylesheet" />
+	
+	
+	<body>
+    <div id="header">
+      <center>
+        <h1>
+Viking Tankards
+        </h1>
+      </center>
+	  <br />
+	 
+         <ul>
+ <li> <a href="file:///G:/WEB%20DEV/NEW%20PROJECT%2050%20%/Viking.html" target="_blank">Home</a><br /></li>
+	
+  <li>About
+  <ul>
+      <li> <a href="file:///G:/WEB%20DEV/NEW%20PROJECT%2050%20%/Viking.html" target="_blank">History</a><br /></li>
+	  </ul>
+	  </li>
+	  
+	  
+	  
+  <li>
+  Products
+    <ul>
+      <li> <a href="file:///C:/Users/Keith%20Malone/Pictures/drunk%20viking/Traditional.html" target="_blank">Traditional Tankards</a><br /></li>
+      <li><a href="file:///C:/Users/Keith%20Malone/Pictures/drunk%20viking/special.html" target="_blank">Special Tankards</a><br /></li>
+   
+    </ul>
+  </li>
+  
+    <li>
+ Media
+    <ul>
+      <li><a href="https://www.youtube.com/channel/UCD8Cc4oWzMHS73yfvW8IqSw" target="_blank">Youtube</a><br /></li>
+      <li><a href="https://www.facebook.com/VikingTankards.ie?fref=ts" target="_blank">Facebook</a><br /></li>
+	  <li><a href="https://twitter.com/VikingTankardsi" target="_blank">Twitter</a><br /></li>
+   
+    </ul>
+  </li>
+  
+  
+  
+  <li>Contact
+	<ul>
+  <li><a href="file:///G:/WEB%20DEV/NEW%20PROJECT%2050%20%/map.html" target="_blank">Location</a><br /></li>
+   
+    </ul>
+  </li>
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	
+	
+    <script type="text/javascript">
+//<![CDATA[
+    window.onload = initAll;
+    function initAll() {
+      document.getElementById('submit').onclick = validate
+    }
+    function validate() {
+        if(document.form.name.value.length == 0)
+        {
+          window.alert("Please Enter your Firstname");
+          document.getElementById("name").focus();
+          return false;
+        }
+        var genders = document.forms['form'].elements['gender'];
+        var genderSelected = false;
+        for (var i=0; i <genders.length; i++) {
+            if (genders[i].checked) {
+                genderSelected = true;
+            }
+        }
+        if (!genderSelected) {
+          alert('Gender not selected');
+          return false;
+        }
+          
+        if(document.form.email.value.length == 0)
+        {
+          window.alert("Please Enter your Email Address");
+          document.getElementById("email").focus();
+          return false;
+        }
+        if(document.form.password.value.length == 0)
+        {
+          window.alert("Please Enter a Password");
+          document.getElementById("password").focus();
+          return false;
+        }
+        return true;
+    }
+    //]]>
+    </script>
+  </head>
+  <body>
+    <!-- comments -->
+	  <div align="right">
+    <div id="stylized" class="myform">
+      <form id="form" name="form" method="post" action=
+      "danglrs2@gmail.com">
+        <h1>
+          Sign-up form
+        </h1>
+        <p>
+          This is the customer Sign up Form
+        </p>
+		<label> first Name</label>
+        <h4>
+          <label><span class="small"></span></label>
+        </h4><input type="text" name="name" id="name" /><br />
+        <br />
+		
+		<label> last Name</label>
+        <h4>
+          <label><span class="small"></span></label>
+        </h4><input type="text" name="name" id="name" /><br />
+        <br />
+		
+<div class='clear'></div><label>Country</label>
+		<div class='boxes'>
+          <select name="location">
+            <option>
+              Ireland
+            </option>
+            <option>
+              UK
+            </option>
+            <option>
+              USA
+            </option>
+            <option>
+              Canada
+            </option>
+            <option>
+              Germany
+            </option>
+            <option>
+              France
+            </option>
+			<option>
+              Other
+            </option>
+		
+		</select>
+        </div>
+        <div class='clear'></div><label>Email <span class=
+        "small">Add a valid address</span></label> <input type=
+        "text" name="email" id="email" /><br />
+        <br />
+        <label>Password <span class="small">Min. size 6
+        chars</span></label> <input type="password" name="password"
+        id="password" /> <input id='submit' type="submit" value=
+        "Sign-up" />
+        <div class="spacer"></div>
+      </form>
+    </div>
+<script>
+setTimeout(responsiveVoice.speak("Welcome to Viking Tankards MY LEIGE"),15000);
+</script>
+  
+ 
+ 
+ 
+ 
+	  <div id="sidebar">
+	   <div align="left">
+	<a class="twitter-timeline" href="https://twitter.com/KeithRingo" data-widget-id="667285130004660225">Tweets by @KeithRingo</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  </body>
+</html>
