@@ -28,26 +28,29 @@ function contactButton() {
 <script>
 function thorButton() {
     var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
     
     if (person != null) {
         alert(
-        "Thanks " + person + "! You have signed up to a Thor Account!");
+        "Thanks " + person + "! You have been sent a form to sign up to a Thor Account!");
     }
 }
 </script>
 <script>
 function odinButton() {
     var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
     
     if (person != null) {
         alert(
-        "Thanks " + person + "! You have signed up to an Odin Account!");
+        "Thanks " + person + "! You have been sent a form to sign up to an Odin Account!");
     }
 }
 </script>
 <script>
 function lokiButton() {
     var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
     
     if (person != null) {
         alert(
@@ -105,7 +108,7 @@ document.write(Date());
 			  gaming consoles and games to choose from!
               We pride ourselves on our fast
               and effective Consoles and friendly staff.</h4></strong>
-			  <button class="btn btn-default btn-lg">Get in Touch</button>
+		
 	   <br></br> <br></br>
     </div>
     <div class="col-sm-4">
@@ -343,6 +346,8 @@ function initialize()
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  
+ 
 }
 function loadScript()
 {
