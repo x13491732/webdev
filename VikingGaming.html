@@ -1,53 +1,446 @@
- <div id="about" class="container-fluid bg-grey">
-   <div class="row">
-     <div class="col-sm-8">
--      <h2>About Company Page</h2><br>
-+      <h2>About Company Page</h2><br>
-       <strong><h4>Established in 2015, we are based in Dublin city centre, mayor square, IFSC,
-               5 minutes away from connolly train station and busaras.
- 			  (See Google maps at the bottom of the page). 
- @@ -81,7 +81,7 @@
-       </a><img src="BE.jpg" class="img-rounded" alt="viking" width="350" height="300"> 
-     </div>
-     <div class="col-sm-8">
--      <h2>Our Outlook</h2><br>
-+      <h2>Our Outlook</h2><br>
-       <h4><strong>Here at Viking Gaming We just love Gaming And we Enjoy sharing
- 	              our passion with all the other gaming fans out there.
-                   So have a look around our store and see what you can find 	  </h4></strong>
- @@ -91,7 +91,7 @@
- 
- <!-- Container (Consoles Section) á
- <div id="Consoles" class="container-fluid text-center">
--  <h2>Consoles</h2>
-+  <h2>Consoles</h2>
-   <h4>What we offer</h4>
-   <br>
-   <div class="row slideanim">
- @@ -133,7 +133,7 @@
- 
- <!-- Container (products Section) -->
- <div id="products" class="container-fluid text-center bg-grey2">
--  <h2>products</h2><br>
-+  <h2>products</h2><br>
-   <div class="row text-center slideanim">
-  <div class="dropdown">
-     <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Games List
- @@ -151,7 +151,7 @@
-   </div>
-   <br></br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Viking Gaming</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="Viking.css" type="text/css" rel="stylesheet" />
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/path/to/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="/path/to/font-awesome.css" rel="stylesheet" type="text/css" />
+  <script src="trapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+   <script>  /*SCRPIT FRO XBOX ONE GAME LIST  */
+function showGAME(str) {
+  if (str=="") {
+    document.getElementById("txtHint").innerHTML="";
+    return;
+  } 
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","GAMEX1.php?q="+str,true);
+  xmlhttp.send();
+}
+</script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
    
--  <h2>What our customers say</h2>
-+  <h2>What our customers say</h2>
-   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-     <!-- Indicators -->
-     <ol class="carousel-indicators">
- @@ -256,7 +256,7 @@
-   <h2 class="text-center">CONTACT</h2>
-   <div class="row">
-     <div class="col-sm-5">
--      <  <h4><p>Contact us and we'll get back to you within 24 hours.</p></h4>
-+        <h4><p>Contact us and we'll get back to you within 24 hours.</p></h4>
-       <h4><p><span class="glyphicon glyphicon-map-marker"></span> Dublin Ireland</p></h4>
-       <h4><p><span class="glyphicon glyphicon-phone"></span> +353 09867432</p></h4>
-       <h4><p><span class="glyphicon glyphicon-envelope"></span> vikinggaming420@gmail.com</p>	</h4> 	
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-centre">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#Consoles">CONSOLES</a></li>
+        <li><a href="#products">PRODUCTS</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+		
+<p><script>
+document.write(Date());
+</script></p>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Viking Gaming</h1> 
+  <br></br>
+  <form class="form-inline">
+    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+    <button type="button" class="btn btn-danger">Subscribe</button>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Company Page</h2><br>
+      <strong><h4>Established in 2015, we are based in Dublin city centre, mayor square, IFSC,
+              5 minutes away from connolly train station and busaras.
+			  (See Google maps at the bottom of the page). 
+			  We have all different types of 
+			  gaming consoles and games to choose from!
+              We pride ourselves on our fast
+              and effective Consoles and friendly staff.</h4></strong>
+			  <button class="btn btn-default btn-lg">Get in Touch</button>
+	   <br></br> <br></br>
+    </div>
+    <div class="col-sm-4">
+    </a>  <img src="AW.jpg" class="img-rounded" alt="viking" width="404" height="236"> 
+</div>
+    </div>
+  </div>
+</div>
+<br></br>
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      </a><img src="BE.jpg" class="img-rounded" alt="viking" width="404" height="300"> 
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Outlook</h2><br>
+      <h4><strong>Here at Viking Gaming We just love Gaming And we Enjoy sharing
+	              our passion with all the other gaming fans out there.
+                  So have a look around our store and see what you can find 	  </h4></strong>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Consoles Section) -->
+<div id="Consoles" class="container-fluid text-center">
+  <h2>Consoles</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+       </a>  <img src="X.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>Xbox One</h4>
+      <p>&euro;399.00</p>
+    </div>
+    <div class="col-sm-4">
+       </a>  <img src="X3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>Xbox 360</h4>
+      <p>&euro;265.00</p>
+    </div>
+    <div class="col-sm-4">
+       </a>  <img src="XO.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>Xbox Orginal</h4>
+      <p>&euro;70.00</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+       </a><img src="P.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>PS4</h4>
+      <p>&euro;350.00</p>
+    </div>
+    <div class="col-sm-4">
+        </a><img src="P3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>PS3</h4>
+      <p>&euro;250.00</p>
+    </div>
+    <div class="col-sm-4">
+     </a><img src="P2.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>PS2</h4>
+      <p>&euro;60.00</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (products Section) -->
+<div id="products" class="container-fluid text-center bg-grey2">
+  <h2>products</h2><br>
+  <div class="row text-center slideanim">
+   
+<form>
+Display Xbox one games:
+<select name="games" onchange="showGAME(this.value)">
+<option value="">Select a GAME:</option>
+<option value="Assassin's Creed IV: Black Flag">Assassin's Creed IV: Black Flag</option>
+<option value="Assassin's Creed :Unity">Assassin's Creed :Unity</option>
+<option value="Borderlands">Bordelands</option>
+<option value="Battlefield 4">Battlefield 4</option>
+<option value="Battlefield Hardline">Battlefield Hardline</option>
+<option value="Call Of Duty:Ghosts">Call Of Duty:Ghosts</option>
+<option value="Call Of Duty:Advanced Warfare">Call Of Duty:Advanced Warfare</option>
+<option value="Call Of Duty:Black Ops 3">Call Of Duty:Black Ops 3</option>
+<option value="Destiny">Destiny</option>
+<option value="FIFA 15">FIFA 15</option>
+<option value="FIFA 16">FIFA 16</option>
+<option value="Grand Theft Auto 5">Grand Theft Auto 5</option>
+<option value="Halo 4">Halo 4</option>
+<option value="Halo 5:Guardians">Halo 5:Guardians</option>
+<option value="Bioshock">Bioshock</option>
+<option value="Fable Legends">Fable Legends</option>
+<option value="Tomb Raider">Tomb Raider</option>
+<option value="Titan Fall">Titan Fall</option>
+<option value="Mortal Kombat X">Mortal Kombat X</option>
+<option value="MineCraft:Xbox One edition">MineCraft:Xbox One edition</option>
+<option value="Batman:Arkham Knight">Batman:Arkham Knight</option>
+<option value="Dark Souls 2">Dark Souls 2</option>
+<option value="Dark Souls 3 ">Dark Souls 3 </option>
+<option value="The Witcher 3:Wild Hunt">The Witcher 3:Wild Hunt</option>
+<option value="Evolve">Evolve</option>
+<option value="Dying Light">Dying Light</option>
+<option value="Dead Rising 3">Dead Rising 3 </option>
+<option value="Watch Dogs">Watch Dogs</option>
+<option value="Gears Of War 4">Gears Of War 4</option>
+<option value="Gears oF War:Remastered ">Gears oF War:Remastered </option>
+<option value="MineCraft:Story Mode ">MineCraft:Story Mode </option>
+</select>
+</form>
+<div id="txtHint"><b>GAME info will be listed here...</b></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+		<br></br>
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"Nice selection of games"<br><span style="font-style:normal;">John Ford,Gamer</span></h4>
+      </div>
+      <div class="item">
+        <h4>"One word... WOW!!"<br><span style="font-style:normal;">Papa john, Salesman, Rep Inc</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Friendly and Helpful plenty of things for my cousin"<br><span style="font-style:normal;">Niko Belic, Gamer</span></h4>
+      </div>
+	  <div class="item">
+        <h4>"Pretty Dank"<br><span style="font-style:normal;">DankLord</span></h4>
+      </div>
+	  <div class="item">
+        <h4>"Better than Life"<br><span style="font-style:normal;">Jeebus</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Subscriptions</h2>
+    <h4>Choose a subscription plan that works for you</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Loki</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>FREE</strong> Viking Gaming Account!</p>
+          <p><strong>30 DAY FREE TRIAL</strong> to Amazon Prime!</p>
+          <p><strong>FREE</strong> Newsletter!</p>
+          
+        </div>
+        <div class="panel-footer plan">
+          <h3>FREE</h3>
+         
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Thor</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>3 MONTH ACCESS</strong> to an Admin Viking Gaming Account!</p>
+          <p><strong>3 MONTH SUBSCRIPTION</strong> to Amazon Prime!</p>
+          <p><strong>EARLY ACCESS</strong> to upcoming deals!</p>
+          <p><strong>FREE</strong> Newsletter</p>
+       
+        </div>
+        <div class="panel-footer plan">
+          <h3>&euro;20</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Odin</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>1 YEAR ACCESS</strong> to an Admin Viking Gaming Account!</p>
+          <p><strong>1 YEAR SUBSCRIPTION</strong> to Amazon Prime!</p>
+          <p><strong>FIRST CHOICE</strong> on what goes on sale!</p>
+          <p><strong>EARLY ACCESS</strong> to upcoming deals!</p>
+          <p><strong>FREE</strong> Newsletter!</p>
+        </div>
+        <div class="panel-footer plan">
+          <h3>&euro;50</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+        <h4>Contact us and we'll get back to you within 24 hours.</h4>
+      <h4><span class="glyphicon glyphicon-map-marker"></span> Dublin Ireland</h4>
+      <h4><span class="glyphicon glyphicon-phone"></span> +353 09867432</h4>
+      <h4><span class="glyphicon glyphicon-envelope"></span> vikinggaming420@gmail.com	</h4> 	   
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+
+<div id="googleMap" style="height:400px;width:100%;"></div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+function initialize()
+{
+  var mapProp = {
+    center: new google.maps.LatLng(53.349464300000000000,-6.245461200000022750),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+function loadScript()
+{
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false&callback=initialize";
+  document.body.appendChild(script);
+}
+
+window.onload = loadScript;
+</script>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+	
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  // Slide in elements on scroll
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
