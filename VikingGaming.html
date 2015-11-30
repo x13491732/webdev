@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,28 +15,6 @@
   <link href="/path/to/font-awesome.css" rel="stylesheet" type="text/css" />
   <script src="trapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-   <script>  /*SCRPIT FRO XBOX ONE GAME LIST  */
-function showGAME(str) {
-  if (str=="") {
-    document.getElementById("txtHint").innerHTML="";
-    return;
-  } 
-  if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
-    xmlhttp=new XMLHttpRequest();
-  } else {  // code for IE6, IE5
-    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-  xmlhttp.onreadystatechange=function() {
-    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-      document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
-    }
-  }
-  xmlhttp.open("GET","GAMEX1.php?q="+str,true);
-  xmlhttp.send();
-}
-</script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -57,9 +36,9 @@ function showGAME(str) {
         <li><a href="#pricing">PRICING</a></li>
         <li><a href="#contact">CONTACT</a></li>
 		
-<p><script>
+<script>
 document.write(Date());
-</script></p>
+</script>
       </ul>
     </div>
   </div>
@@ -99,7 +78,7 @@ document.write(Date());
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      </a><img src="BE.jpg" class="img-rounded" alt="viking" width="404" height="300"> 
+      </a><img src="BE.jpg" class="img-rounded" alt="viking" width="350" height="300"> 
     </div>
     <div class="col-sm-8">
       <h2>Our Outlook</h2><br>
@@ -127,22 +106,22 @@ document.write(Date());
       <p>&euro;265.00</p>
     </div>
     <div class="col-sm-4">
-       </a>  <img src="XO.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
-      <h4>Xbox Orginal</h4>
-      <p>&euro;70.00</p>
+       </a>  <img src="P.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>PS4</h4>
+      <p>&euro;350.00</p>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
-       </a><img src="P.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
-      <h4>PS4</h4>
-      <p>&euro;350.00</p>
-    </div>
-    <div class="col-sm-4">
-        </a><img src="P3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+       </a><img src="P3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
       <h4>PS3</h4>
       <p>&euro;250.00</p>
+    </div>
+    <div class="col-sm-4">
+        </a><img src="XO.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+      <h4>Xbox Original</h4>
+      <p>&euro;70.00</p>
     </div>
     <div class="col-sm-4">
      </a><img src="P2.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
@@ -156,86 +135,22 @@ document.write(Date());
 <div id="products" class="container-fluid text-center bg-grey2">
   <h2>products</h2><br>
   <div class="row text-center slideanim">
-   
-<form>
-Display Xbox one games:
-<select name="games" onchange="showGAME(this.value)">
-<option value="">Select a GAME:</option>
-<option value="Assassin's Creed IV: Black Flag">Assassin's Creed IV: Black Flag</option>
-<option value="Assassin's Creed :Unity">Assassin's Creed :Unity</option>
-<option value="Borderlands">Bordelands</option>
-<option value="Battlefield 4">Battlefield 4</option>
-<option value="Battlefield Hardline">Battlefield Hardline</option>
-<option value="Call Of Duty:Ghosts">Call Of Duty:Ghosts</option>
-<option value="Call Of Duty:Advanced Warfare">Call Of Duty:Advanced Warfare</option>
-<option value="Call Of Duty:Black Ops 3">Call Of Duty:Black Ops 3</option>
-<option value="Destiny">Destiny</option>
-<option value="FIFA 15">FIFA 15</option>
-<option value="FIFA 16">FIFA 16</option>
-<option value="Grand Theft Auto 5">Grand Theft Auto 5</option>
-<option value="Halo 4">Halo 4</option>
-<option value="Halo 5:Guardians">Halo 5:Guardians</option>
-<option value="Bioshock">Bioshock</option>
-<option value="Fable Legends">Fable Legends</option>
-<option value="Tomb Raider">Tomb Raider</option>
-<option value="Titan Fall">Titan Fall</option>
-<option value="Mortal Kombat X">Mortal Kombat X</option>
-<option value="MineCraft:Xbox One edition">MineCraft:Xbox One edition</option>
-<option value="Batman:Arkham Knight">Batman:Arkham Knight</option>
-<option value="Dark Souls 2">Dark Souls 2</option>
-<option value="Dark Souls 3 ">Dark Souls 3 </option>
-<option value="The Witcher 3:Wild Hunt">The Witcher 3:Wild Hunt</option>
-<option value="Evolve">Evolve</option>
-<option value="Dying Light">Dying Light</option>
-<option value="Dead Rising 3">Dead Rising 3 </option>
-<option value="Watch Dogs">Watch Dogs</option>
-<option value="Gears Of War 4">Gears Of War 4</option>
-<option value="Gears oF War:Remastered ">Gears oF War:Remastered </option>
-<option value="MineCraft:Story Mode ">MineCraft:Story Mode </option>
-</select>
-</form>
-<div id="txtHint"><b>GAME info will be listed here...</b></div>
+ <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Games List
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Xbox One</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Xbox 360</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PS4</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PS3</a></li>
+    </ul>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <br></br>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-		<br></br>
   <h2>What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
@@ -243,26 +158,18 @@ Display Xbox one games:
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-	  <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jhgW1Oy4Nl8" frameborder="0" allowfullscreen></iframe>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"Nice selection of games"<br><span style="font-style:normal;">John Ford,Gamer</span></h4>
+        <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span style="font-style:normal;">Papa john, Salesman, Rep Inc</span></h4>
+        <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
       </div>
       <div class="item">
-        <h4>"Friendly and Helpful plenty of things for my cousin"<br><span style="font-style:normal;">Niko Belic, Gamer</span></h4>
-      </div>
-	  <div class="item">
-        <h4>"Pretty Dank"<br><span style="font-style:normal;">DankLord</span></h4>
-      </div>
-	  <div class="item">
-        <h4>"Better than Life"<br><span style="font-style:normal;">Jeebus</span></h4>
+        <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
       </div>
     </div>
 
@@ -343,17 +250,20 @@ Display Xbox one games:
     </div>    
   </div>
 </div>
-
+ 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-        <h4>Contact us and we'll get back to you within 24 hours.</h4>
-      <h4><span class="glyphicon glyphicon-map-marker"></span> Dublin Ireland</h4>
-      <h4><span class="glyphicon glyphicon-phone"></span> +353 09867432</h4>
-      <h4><span class="glyphicon glyphicon-envelope"></span> vikinggaming420@gmail.com	</h4> 	   
+      <  <h4><p>Contact us and we'll get back to you within 24 hours.</p></h4>
+      <h4><p><span class="glyphicon glyphicon-map-marker"></span> Dublin Ireland</p></h4>
+      <h4><p><span class="glyphicon glyphicon-phone"></span> +353 09867432</p></h4>
+      <h4><p><span class="glyphicon glyphicon-envelope"></span> vikinggaming420@gmail.com</p>	</h4> 
+	  
+	  
     </div>
+	
     <div class="col-sm-7 slideanim">
       <div class="row">
         <div class="col-sm-6 form-group">
@@ -367,12 +277,13 @@ Display Xbox one games:
       <div class="row">
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Send</button>
+
         </div>
       </div>	
     </div>
   </div>
 </div>
-
+   
 <div id="googleMap" style="height:400px;width:100%;"></div>
 
 <!-- Add Google Maps -->
@@ -403,7 +314,7 @@ window.onload = loadScript;
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-	
+	<h4> Back to top </h4>
 </footer>
 
 <script>
@@ -441,6 +352,7 @@ $(document).ready(function(){
   });
 })
 </script>
+
 
 </body>
 </html>
