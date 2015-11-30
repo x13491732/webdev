@@ -73,7 +73,7 @@ function lokiButton() {
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#Consoles">CONSOLES</a></li>
         <li><a href="#products">PRODUCTS</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#pricing">SUBSCRIPTIONS</a></li>
         <li><a href="#contact">CONTACT</a></li>
 		
 <script>
@@ -88,7 +88,7 @@ document.write(Date());
   <h1>Viking Gaming</h1> 
   <br></br>
   <form class="form-inline">
-        <input type="email" class="form-control" size="50" placeholder="Enter your email to receive a free newsletter!" required>
+    <input type="email" class="form-control" size="50" placeholder="Enter your email to receive a free newsletter!" required>
     <button type="button" class="btn btn-danger" onclick="subscribeButton()")>Subscribe</button>
   </form>
 </div>
@@ -170,6 +170,7 @@ document.write(Date());
     </div>
     <div class="col-sm-4">
      </a> <a href="http://ie.playstation.com/ps2/" target="_blank"> <img src="P2.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	 </a>
       <h4>PS2</h4>
       <p>&euro;60.00</p>
     </div>
@@ -268,8 +269,8 @@ document.write(Date());
        
         </div>
         <div class="panel-footer plan">
-          <h3>&euro;20</h3>
-          <h4>per month</h4>
+          <h3>&euro;15</h3>
+          <h4>every 3 months</h4>
           <button class="btn btn-lg" onclick="thorButton()">Sign Up</button>
         </div>
       </div>      
@@ -287,8 +288,8 @@ document.write(Date());
           <p><strong>FREE</strong> Newsletter!</p>
         </div>
         <div class="panel-footer plan">
-          <h3>&euro;50</h3>
-          <h4>per month</h4>
+          <h3>&euro;59.99</h3>
+          <h4>annually</h4>
           <button class="btn btn-lg" onclick="odinButton()">Sign Up</button>
         </div>
       </div>      
