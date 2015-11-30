@@ -74,7 +74,7 @@
       font-style: normal;
   }
   .panel {
-      border: 1px solid #f4511e; 
+      border: 1px solid #000000; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -88,7 +88,7 @@
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #f4511e !important;
+      background-color: #000000 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -108,7 +108,7 @@
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #f4511e;
+      background-color: #000000;
       color: #fff;
   }
   .navbar {
