@@ -82,16 +82,17 @@ document.write(Date());
     </div>
     <div class="col-sm-8">
       <h2>Our Outlook</h2><br>
-      <h4><strong>Here at Viking Gaming We just love Gaming And we Enjoy sharing
-	              our passion with all the other gaming fans out there.
-                  So have a look around our store and see what you can find 	  </h4></strong>
+      <h4><strong>Here at Viking Gaming We just love Gaming And <br> we Enjoy sharing
+	              our passion with all the other gaming fans out there.<br>
+                  So have a look around our store and see what you can find </br>	  </h4></strong>
     </div>
   </div>
 </div>
 
 <!-- Container (Consoles Section) -->
 <div id="Consoles" class="container-fluid text-center">
-  <h2>Consoles</h2>
+<div align="center">
+  <h2>Consoles</h2></div>
   <h4>What we offer</h4>
   <br>
   <div class="row slideanim">
