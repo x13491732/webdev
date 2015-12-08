@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Viking Gaming</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="Viking.css" type="text/css" rel="stylesheet" />
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/path/to/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="/path/to/font-awesome.css" rel="stylesheet" type="text/css" />
+  <script src="trapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+  
+  
+  <script>
+function subscribeButton() {
+    alert("Thanks for subscribing!");
+}
+</script> <script>
+function contactButton() {
+    alert("We have recieved your details and will get back to you as soon as possible.");
+}
+</script>
+
+<script>
+function thorButton() {
+    var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
+    
+    if (person != null) {
+        alert(
+        "Thanks " + person + "! You have been sent a form to sign up to a Thor Account!");
+    }
+}
+</script>
+<script>
+function odinButton() {
+    var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
+    
+    if (person != null) {
+        alert(
+        "Thanks " + person + "! You have been sent a form to sign up to an Odin Account!");
+    }
+}
+</script>
+<script>
+function lokiButton() {
+    var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
+    
+    if (person != null) {
+        alert(
+        "Thanks " + person + "! You have signed up to a Free Loki Account!");
+    }
+}
+</script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-centre">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#Consoles">CONSOLES</a></li>
+        <li><a href="#products">GAMES</a></li>
+		 <li><a href="#media">MEDIA</a></li>
+        <li><a href="#pricing">SUBSCRIPTIONS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+		
+<script>
+document.write(Date());
+</script>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Viking Gaming</h1> 
+  <br></br>
+  <form class="form-inline">
+    <input type="email" class="form-control" size="50" placeholder="Enter your email to receive a free newsletter!" required>
+    <button type="button" class="btn btn-danger" onclick="subscribeButton()")>Subscribe</button>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Company Page</h2><br>
+      <strong><h4>Established in 2015, we are based in Dublin city centre, mayor square, IFSC.<br>
+              5 minutes away from connolly train station and busaras.<br>
+			  (See Google maps at the bottom of the page). </br>
+			  <br>We have all different types of 
+			  gaming consoles and games to choose from!</br>
+              <br>We pride ourselves on our fast
+              and effective Consoles and friendly staff.</br></h4></strong>
+		
+	   <br></br> <br></br>
+    </div>
+    <div class="col-sm-4">
+    </a>  <img src="AW.jpg" class="img-rounded" alt="viking" width="444" height="300"> 
+</div>
+    </div>
+  </div>
+</div>
+<br></br>
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      </a><img src="BE.jpg" class="img-rounded" alt="viking" width="350" height="300"> 
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Outlook</h2><br>
+      <h4><strong>Here at Viking Gaming We just love Gaming And we Enjoy sharing
+	              <br>our passion with all the other gaming fans out there.</br>
+                  So have a look around our store and see what you can find 	  </h4></strong>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Consoles Section) -->
+
+<div class="container-fluid bg-grey2">
+<div id="Consoles" class="container-fluid text-center">
+  <h2>Consoles</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+       </a> <a href="http://www.xbox.com/en-US/xbox-one?xr=shellnav" target="_blank"> <img src="X.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>Xbox One</h4>
+      <p>&euro;399.00</p>
+    </div>
+    <div class="col-sm-4">
+       </a>  <a href="http://www.xbox.com/en-US/xbox-360?xr=shellnav" target="_blank"><img src="X3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>Xbox 360</h4>
+      <p>&euro;265.00</p>
+    </div>
+
+    <div class="col-sm-4">
+       </a> <a href="http://support.xbox.com/en-IE/xbox-on-other-devices/original-console/play-original-games" target="_blank"> <img src="XO.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>Xbox Orginal</h4>
+      <p>&euro;70.00</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+       </a> <a href="https://www.playstation.com/en-ie/explore/ps3/" target="_blank"> <img src="P3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>PS3</h4>
+      <p>&euro;250.00</p>
+    </div>
+    <div class="col-sm-4">
+        </a> <a href="https://www.playstation.com/en-ie/explore/ps4/" target="_blank"><img src="P.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+		</a>
+      <h4>PS4</h4>
+      <p>&euro;350.00</p>
+    </div>
+    <div class="col-sm-4">
+     </a> <a href="http://ie.playstation.com/ps2/" target="_blank"> <img src="P2.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	 </a>
+      <h4>PS2</h4>
+      <p>&euro;60.00</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (products Section) -->
+<br></br>
+<div id="products" class="container-fluid text-center bg-grey">
+  <h2>Games</h2><br>
+  <div class="row text-center slideanim">
+    <div align="center">
+<div id='showGAME'></div><br>
+<input type="button" onclick="previous()" value="<<">
+<input type="button" onclick="next()" value=">>">
+
+<script>
+var i = 0;
+displayGAME(i);
+
+function displayGAME(i) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            myFunction(xmlhttp, i);
+        }
+    };
+    xmlhttp.open("GET", "GAMESLIST.xml", true);
+    xmlhttp.send();
+}
+
+function myFunction(xml, i) {
+    var xmlDoc = xml.responseXML; 
+    x = xmlDoc.getElementsByTagName("GAME");
+    document.getElementById("showGAME").innerHTML =
+    "Console: " +
+    x[i].getElementsByTagName("CONSOLE")[0].childNodes[0].nodeValue +
+    "<br>Title: " +
+    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+    "<br>Price: " + 
+    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+}
+
+function next() {
+if (i < x.length-1) {
+  i++;
+  displayGAME(i);
+  }
+}
+
+function previous() {
+if (i > 0) {
+  i--;
+  displayGAME(i);
+  }
+}
+</script>
+
+
+<h4>Game Supply Order Form</h4>
+<form action="gameF.php" method="post"> 
+<select name="item"> 
+<option> <TITLE>Assassin's Creed IV: Black Flag</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+			</option>
+			
+<option> <TITLE>Assassin's Creed :Unity</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+
+<option>
+            <TITLE>Assassin's Creed :Syndicate</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			
+<option>
+            <TITLE>Borderlands</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			
+			<option> <TITLE>Battlefield 4</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			
+		<option>  <TITLE>Battlefield Hardline</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+		
+        <option>
+            <TITLE>Call Of Duty:Ghosts</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			
+        <option>
+            <TITLE>Call Of Duty:Advanced Warfare</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   
+      </option>
+		
+			<option>  <TITLE>Destiny</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>
+            <TITLE>Call Of Duty 4:Modern Warfare</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            </option>
+			<option>
+            <TITLE>FIFA 15</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option> <TITLE>FIFA 16</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Grand Theft Auto 5</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>
+      
+            <TITLE>Grand Theft Auto </TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>
+            <TITLE>Fable Legends</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>  <TITLE>Tomb Raider</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>
+            <TITLE>Titan Fall</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option><TITLE>Mortal Kombat X</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>
+            <TITLE>MineCraft:Xbox 360 edition</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+			</option>
+			<option><TITLE>Batman:Arkham Asylum</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+			</option>
+			<option> <TITLE>Dark Souls </TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option> <TITLE>Dark Souls 2 </TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>
+            <TITLE>The Witcher 3:Wild Hunt</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Evolve</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>  <TITLE>Dying Light</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Dead Rising 3</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>
+            <TITLE>Watch Dogs</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option>
+            <TITLE>Call Of Duty:Black Ops</TITLE>
+            <CONSOLE>PS4</CONSOLE></option>
+			<option><TITLE>Call Of Duty 4:Modern Warfare/Game Of The Year Edition </TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>  <TITLE>MineCraft:Story Mode</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Assassin's Creed IV: Black Flag</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option> 
+      
+            <TITLE>Assassin's Creed :Unity</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   
+</option>
+			<option>
+            <TITLE>Assassin's Creed :Syndicate</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Borderlands</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option><TITLE>Battlefield 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option><TITLE>Battlefield Hardline</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option> <TITLE>Call Of Duty:Ghosts</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Call Of Duty:Advanced Warfare</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option> <TITLE>Halo 3 </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Destiny</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   
+      </option>
+			<option><TITLE>Call Of Duty 4:Modern Warfare</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>FIFA 15</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			
+			<option>
+            <TITLE>FIFA 16</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Grand Theft Auto 5</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Grand Theft Auto 4 </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option> <TITLE>Halo 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option><TITLE>Fable Legends</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Tomb Raider</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Titan Fall</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Mortal Kombat X</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   </option>
+			<option> <TITLE>MineCraft:Xbox 360 edition</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Batman:Arkham Asylum</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option> <TITLE>Dark Souls </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option><TITLE>Dark Souls 2 </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>The Witcher 3:Wild Hunt</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option> <TITLE>Evolve</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Dying Light</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Dead Rising 3</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Watch Dogs</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+            <TITLE>Gears Of War 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+   </option>
+			<option>
+            <TITLE>Gears oF War:Remastered </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option><TITLE>MineCraft:Story Mode</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE></option>
+			<option>
+			 <TITLE>Assassin's Creed IV: Black Flag</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>
+            <TITLE>Assassin's Creed :Unity</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option><TITLE>Assassin's Creed :Syndicate</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option> <TITLE>Borderlands</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Battlefield 4</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Battlefield Hardline</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Call Of Duty:Ghosts</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Call Of Duty:Advanced Warfare</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option> <TITLE>Destiny</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Call Of Duty 4:Modern Warfare</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>
+            <TITLE>FIFA 15</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>FIFA 16</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Grand Theft Auto 5</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>
+            <TITLE>Fable Legends</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Tomb Raider</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option> <TITLE>Titan Fall</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option> <TITLE>Mortal Kombat X</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>   <TITLE>MineCraft</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option> <TITLE>Batman:Arkham Asylum</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>  <TITLE>Dark Souls </TITLE>
+            <CONSOLE>PS3</CONSOLE</option>
+			<option>
+            <TITLE>Dark Souls 2 </TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>The Witcher 3:Wild Hunt</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option><TITLE>Evolve</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>
+            <TITLE>Dying Light</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><TITLE>Dead Rising 3</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>
+            <TITLE>Watch Dogs</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>
+            <TITLE>Call Of Duty:Black Ops</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+   </option>
+			<option><TITLE>Call Of Duty 4:Modern Warfare/Game Of The Year Edition </TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option>
+            <TITLE>MineCraft:Story Mode</TITLE>
+            <CONSOLE>PS3</CONSOLE></option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE> Assassin's Creed IV: Black</option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Assassin's Creed :Unity</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Assassin's Creed :Syndicate</TITLE></option>
+			<option>  <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Borderlands</TITLE></option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Battlefield 4</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Battlefield Hardline</TITLE>
+   </option>
+			<option> <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Call Of Duty:Ghosts</TITLE>
+   </option>
+			<option> <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Call Of Duty:Advanced Warfare</TITLE>
+   </option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Call Of Duty:Black Ops 3</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Destiny</TITLE></option>
+			<option> <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Fallout 4</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>FIFA 15</TITLE>
+   </option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE>FIFA 16</TITLE></option>
+			<option> <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Grand Theft Auto 5</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Halo 4</TITLE></option>
+			<option>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Halo 5:Guardians</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Bioshock</TITLE></option>
+			<option> <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Fable Legends</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Tomb Raider</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Titan Fall</TITLE>
+   </option>
+			<option>  <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Mortal Kombat X</TITLE></option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE>MineCraft:Xbox One edition</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Batman:Arkham Knight</TITLE>
+   </option>
+			<option>  <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dark Souls 2</TITLE>
+   </option>
+			<option>  <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dark Souls 3 </TITLE></option>
+			<option>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>The Witcher 3:Wild Hunt</TITLE>
+   
+</option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Evolve</TITLE></option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dying Light</TITLE></option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dead Rising 3</TITLE></option>
+			<option>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Watch Dogs</TITLE>
+   </option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Gears Of War 4</TITLE></option>
+			<option>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Gears oF War:Remastered </TITLE></option>
+			<option><CONSOLE>Xbox One</CONSOLE>
+            <TITLE>MineCraft:Story Mode</TITLE>
+   </option>
+			
+</select>
+Quantity: <input name="quantity" type="text" /> 
+<input type="submit" />
+</form>
+  
+  
+  
+  
+  
+  
+      </div>
+    </div>
+  </div>
+  <br></br>
+  <div id="media" class="container-fluid text-center bg-grey">
+    <h2>Twitter</h2>
+  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/VTankards" data-widget-id="667710213101920256">Tweets by @VTankards</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ <h2>Youtube</h2>
+  <iframe width="400" height="400" src="https://www.youtube.com/embed/jhgW1Oy4Nl8" frameborder="0" allowfullscreen></iframe>
+  <br></br>
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+	
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"GREAT SITE!"<br><span style="font-style:normal;">Jim Cricket</span></h4>
+      </div>
+      <div class="item">
+        <h4>"One word... WOW!!"<br><span style="font-style:normal;"> Doe Sal </span></h4>
+      </div>
+      <div class="item">
+        <h4>"Could I... BE any more happy with this site"<br><span style="font-style:normal;">Big lad </span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Subscriptions</h2>
+    <h4>Choose a subscription plan that works for you</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Loki</h1>
+        </div>
+        <div class="panel-body">
+          <strong>FREE</strong> Viking Gaming Account!
+          <strong>30 DAY FREE TRIAL</strong> to Amazon Prime!
+          <strong>FREE</strong> Newsletter!
+          
+        </div>
+        <div class="panel-footer plan">
+          <h3>FREE</h3>
+         
+          <button class="btn btn-lg" onclick="lokiButton()">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Thor</h1>
+        </div>
+        <div class="panel-body">
+          <strong>3 MONTH ACCESS</strong> to an Admin Viking Gaming Account!
+          <strong>3 MONTH SUBSCRIPTION</strong> to Amazon Prime!
+          <strong>EARLY ACCESS</strong> to upcoming deals!
+       
+        </div>
+        <div class="panel-footer plan">
+          <h3>&euro;15</h3>
+          <h4>every 3 months</h4>
+          <button class="btn btn-lg" onclick="thorButton()">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Odin</h1>
+        </div>
+        <div class="panel-body">
+          <strong>1 YEAR ACCESS</strong> to an Admin Viking Gaming Account!</p>
+          <strong>1 YEAR SUBSCRIPTION</strong> to Amazon Prime!
+          <strong>FIRST CHOICE</strong> on what goes on sale!
+          <strong>EARLY ACCESS</strong> to upcoming deals!
+          <strong>FREE</strong> Newsletter!
+        </div>
+        <div class="panel-footer plan">
+          <h3>&euro;59.99</h3>
+          <h4>annually</h4>
+          <button class="btn btn-lg" onclick="odinButton()">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+ 
+<!-- Container (Contact Section) -->
+<br></br>
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <h4><p>Contact us and we'll get back to you within 24 hours.</p></h4>
+      <h4><p><span class="glyphicon glyphicon-map-marker"></span> Dublin Ireland</p></h4>
+      <h4><p><span class="glyphicon glyphicon-phone"></span> +353 09867432</p></h4>
+      <h4><p><span class="glyphicon glyphicon-envelope"></span> vikinggaming420@gmail.com</p>	</h4> 
+	  
+	  
+    </div>
+	
+    <div class="col-sm-7 slideanim">
+     		<h1 class="page-header text-center">Contact</h1>
+				<form class="form-horizontal" role="form" method="post" action="index.php">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Name</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email" class="col-sm-2 control-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+							<?php echo "<p class='text-danger'>$errEmail</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message" class="col-sm-2 control-label">Message</label>
+						<div class="col-sm-10">
+							<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+							<?php echo "<p class='text-danger'>$errMessage</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+							<?php echo "<p class='text-danger'>$errHuman</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php echo $result; ?>	
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</div>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+   
+<div id="googleMap" style="height:400px;width:100%;"></div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+function initialize()
+{
+  var mapProp = {
+    center: new google.maps.LatLng(53.349464300000000000,-6.245461200000022750),
+    zoom:15,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  
+ 
+}
+function loadScript()
+{
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false&callback=initialize";
+  document.body.appendChild(script);
+}
+window.onload = loadScript;
+</script>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+	<h4> Back to top </h4>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Prevent default anchor click behavior
+    event.preventDefault();
+    // Store hash
+    var hash = this.hash;
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  // Slide in elements on scroll
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+
+</body>
+</html>
