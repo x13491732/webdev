@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Viking Gaming</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="Viking.css" type="text/css" rel="stylesheet" />
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/path/to/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="/path/to/font-awesome.css" rel="stylesheet" type="text/css" />
+  <script src="trapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <!-- TEMPLATE USED xml http://www.w3schools.com/bootstrap/bootstrap_theme_company.asp -->
+  
+  
+  <!--xbox and ps2 search bar  script http://www.w3schools.com/ajax/ajax_php.asp-->
+  
+   <script>
+function showHint(str) {
+    if (str.length == 0) { 
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+            }
+        };
+        xmlhttp.open("GET", "gethint.php?q=" + str, true);
+        xmlhttp.send();
+    }
+}
+</script>
+  
+  
+  
+  
+   <style>
+      #map {
+      width:1250px;
+      height:600px;
+      }
+    </style>
+    
+    <!-- google MAPS https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(53.349464300000000000,-6.245461200000022750),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  
+  
+  
+  <!--JAVASCRIPT FOR BUTTONS http://www.w3schools.com/js/js_functions.asp -->
+  <script>
+function subscribeButton() {
+    alert("Thanks for subscribing!");
+}
+</script>
+
+<script>
+function contactButton() {
+    alert("We have recieved your details and will get back to you as soon as possible.");
+}
+</script>
+
+<script>
+function thorButton() {
+    var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
+    
+    if (person != null) {
+        alert(
+        "Thanks " + person + "! You have been sent a form to sign up to a Thor Account!");
+    }
+}
+</script>
+<script>
+function odinButton() {
+    var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
+    
+    if (person != null) {
+        alert(
+        "Thanks " + person + "! You have been sent a form to sign up to an Odin Account!");
+    }
+}
+</script>
+<script>
+function lokiButton() {
+    var person = prompt("Please enter your name", "Your Name Here");
+	var email = prompt("Please enter you email address");
+    
+    if (person != null) {
+        alert(
+        "Thanks " + person + "! You have signed up to a Free Loki Account!");
+    }
+}
+</script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav navbar-centre">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#Consoles">CONSOLES</a></li>
+        <li><a href="#products">GAMES</a></li>
+		    <li><a href="#media">MEDIA</a></li>
+        <li><a href="#pricing">SUBSCRIPTIONS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        
+       
+<p><script>
+document.write(Date());
+</script></p>
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Viking Gaming</h1> 
+  <br></br>
+  <form class="form-inline">
+     <button type="submit" formaction="FORM.php">
+	<input type="email" class="form-control" size="50" placeholder="Email Address" required>
+    <button type="button" class="btn btn-danger"onclick="subscribeButton()">Subscribe</button>
+  </form>
+</div>
+
+<!-- Container (About COMPANY WHAT WE ARE ABOUT Section) -->
+<div id="about" class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Company Page</h2>
+      <strong><h4>Established in 2015, we are based in Dublin city centre, mayor square, IFSC,
+              5 minutes away from connolly train station and busaras.
+			  (See Google maps at the bottom of the page). 
+			  We have all different types of 
+			  gaming consoles and games to choose from!
+              We pride ourselves on our fast
+              and effective service and friendly staff.</h4></strong>
+	   <br></br> 
+    </div>
+    <div class="col-sm-4">
+    </a>  <img src="AW.jpg" class="img-rounded" alt="viking" width="404" height="236"> 
+</div>
+    </div>
+  </div>
+</div>
+<br></br>
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+    </a><img src="BE.jpg" class="img-rounded" alt="viking" width="400" height="300"> 
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Outlook</h2><br>
+      <strong><h4>Here at Viking Gaming We just love Gaming And we Enjoy sharing
+	              our passion with all the other
+	              gaming fans out there.
+                So have a look around our 
+                store and see what you can find </h4></strong>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Consoles Section) -->
+
+<div class="container-fluid bg-grey2">
+<div id="Consoles" class="container-fluid text-center">
+  <h2>Consoles</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+       </a> <a href="http://www.xbox.com/en-US/xbox-one?xr=shellnav" target="_blank"> <img src="X.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>Xbox One</h4>
+      <p>&euro;399.00</p>
+    </div>
+    <div class="col-sm-4">
+       </a>  <a href="http://www.xbox.com/en-US/xbox-360?xr=shellnav" target="_blank"><img src="X3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>Xbox 360</h4>
+      <p>&euro;265.00</p>
+    </div>
+
+    <div class="col-sm-4">
+       </a> <a href="http://support.xbox.com/en-IE/xbox-on-other-devices/original-console/play-original-games" target="_blank"> <img src="XO.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>Xbox Orginal</h4>
+      <p>&euro;70.00</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+       </a> <a href="https://www.playstation.com/en-ie/explore/ps3/" target="_blank"> <img src="P3.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	   </a>
+      <h4>PS3</h4>
+      <p>&euro;250.00</p>
+    </div>
+    <div class="col-sm-4">
+        </a> <a href="https://www.playstation.com/en-ie/explore/ps4/" target="_blank"><img src="P.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+		</a>
+      <h4>PS4</h4>
+      <p>&euro;350.00</p>
+    </div>
+    <div class="col-sm-4">
+     </a> <a href="http://ie.playstation.com/ps2/" target="_blank"> <img src="P2.jpg" class="img-rounded" alt="viking" width="400" height="200"> 
+	 </a>
+      <h4>PS2</h4>
+      <p>&euro;60.00</p>
+    </div>
+  </div>
+
+<!-- Container (games Section) -->
+<div id="products" class="container-fluid text-center bg-grey">
+  <h2>Games</h2><br>
+  <div class="row text-center slideanim">
+    <div align="center">
+<div id='showGAME'></div><br>
+<button class="btn btn-danger" onclick="previous()">Previous</button>
+<button class="btn btn-danger" onclick="next()">Next</button>
+
+  </div>
+<!--   retives xml http://www.w3schools.com/xml/tryit.asp?filename=tryxml_app_navigate -->
+<script> 
+var i = 0;
+displayGAME(i);
+
+function displayGAME(i) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            myFunction(xmlhttp, i);
+        }
+    };
+    xmlhttp.open("GET", "GAMESLIST.xml", true);
+    xmlhttp.send();
+}
+
+function myFunction(xml, i) {
+    var xmlDoc = xml.responseXML; 
+    x = xmlDoc.getElementsByTagName("GAME");
+    document.getElementById("showGAME").innerHTML =
+    "Console: " +
+    x[i].getElementsByTagName("CONSOLE")[0].childNodes[0].nodeValue +
+    "<br>Title: " +
+    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+    "<br>Price: " + 
+    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+}
+
+function next() {
+if (i < x.length-1) {
+  i++;
+  displayGAME(i);
+  }
+}
+
+function previous() {
+if (i > 0) {
+  i--;
+  displayGAME(i);
+  }
+}
+</script>
+
+<h4>Game Supply Order Form</h4>
+<form action="gameF.php" method="post"> 
+<select name="item"> 
+<option>Assassin's Creed IV: Black Flag PS4	</option>
+<option>Assassin's Creed :Unity PS4</option>
+<option>Assassin's Creed :Syndicate PS4</option>
+<option>Borderlands PS4</option>
+<option>Battlefield 4 PS4</option>
+<option>Battlefield Hardline PS4</option>
+<option>Call Of Duty:Ghosts PS4</option>
+<option>Call Of Duty:Advanced Warfare PS4 </option>
+<option>Destiny PS4</option>
+<option>Call Of Duty 4:Modern Warfare PS4 </option>
+<option>FIFA 15 PS4</option>
+<option>FIFA 16 PS4</option>
+<option>Grand Theft Auto 5 PS4</option>
+<option>Grand Theft Auto PS4</option>
+<option>Fable Legends PS4</option>
+<option>Tomb Raider PS4</option>
+<option>Titan Fall PS4</option>
+<option>Mortal Kombat XPS4</option>
+<option>Batman:Arkham Asylum PS4</option>
+<option>Dark Souls PS4</option>
+<option>Dark Souls 2 PS4</option>
+<option>The Witcher 3:Wild Hunt PS4</option>
+<option>Evolve PS4</option>
+<option>Dying Light  PS4</option>
+<option>Dead Rising 3 PS4</option>
+<option>Watch Dogs PS4</option>
+<option>Call Of Duty:Black Op PS4</option>
+<option>Call Of Duty 4:Modern Warfare/Game Of The Year Edition PS4</option>
+<option>Assassin's Creed IV: Black Flag PS4	</option>
+<option>Assassin's Creed :Unity PS4</option>
+<option>Assassin's Creed :Syndicate PS4</option>
+<option>Borderlands PS4</option>
+<option>Battlefield 4 PS3</option>
+<option>Battlefield Hardline PS3</option>
+<option>Call Of Duty:Ghosts PS3</option>
+<option>Call Of Duty:Advanced Warfare PS3 </option>
+<option>Destiny PS3</option>
+<option>Call Of Duty 4:Modern Warfare PS3 </option>
+<option>FIFA 15 PS3</option>
+<option>FIFA 16 PS3</option>
+<option>Grand Theft Auto 5 PS3</option>
+<option>Grand Theft Auto PS3</option>
+<option>Fable Legends PS3</option>
+<option>Tomb Raider PS3</option>
+<option>Titan Fall PS3</option>
+<option>Mortal Kombat XPS3</option>
+<option>Batman:Arkham Asylum PS3</option>
+<option>Dark Souls PS3</option>
+<option> Dark Souls 2 PS3</option>
+<option>The Witcher 3:Wild Hunt PS3</option>
+<option>Evolve PS3</option>
+<option>Dying Light  PS3</option>
+<option>Dead Rising 3 PS3</option>
+<option>Watch Dogs PS3</option>
+<option>Call Of Duty:Black Op PS3</option>
+<option>Call Of Duty 4:Modern Warfare/Game Of The Year Edition PS3</option>
+<option>Assassin's Creed IV: Black Flag xbox one	</option>
+<option>Assassin's Creed :Unity xbox one</option>
+<option>Assassin's Creed :Syndicate xbox one</option>
+<option>Borderlands xbox one</option>
+<option>Battlefield 4 xbox one</option>
+<option>Battlefield Hardline xbox one</option>
+<option>Call Of Duty:Ghosts xbox one</option>
+<option>Call Of Duty:Advanced Warfare xbox 360</option>
+<option>Destiny xbox one</option>
+<option>Call Of Duty 4:Modern Warfare xbox 360</option>
+<option>FIFA 15 xbox one</option>
+<option>FIFA 16 xbox one</option>
+<option>Grand Theft Auto 5 xbox one</option>
+<option>Grand Theft Auto xbox one</option>
+<option>Fable Legends xbox one</option>
+<option>Tomb Raider xbox one</option>
+<option>Titan Fall xbox one</option>
+<option>Mortal Kombat Xxbox one</option>
+<option>Batman:Arkham Asylum xbox one</option>
+<option>Dark Souls xbox one</option>
+<option>Dark Souls 2 xbox one</option>
+<option>The Witcher 3:Wild Hunt xbox one</option>
+<option>Evolve xbox one</option>
+<option>Dying Light  xbox one</option>
+<option>Dead Rising 3 xbox one</option>
+<option>Watch Dogs xbox one</option>
+<option>Call Of Duty:Black Op xbox one</option>
+<option>Call Of Duty 4:Modern Warfare/Game Of The Year Edition xbox one</option>
+<option>Assassin's Creed IV: Black Flag xbox 360	</option>
+<option>Assassin's Creed :Unity xbox 360</option>
+<option>Assassin's Creed :Syndicate xbox 360</option>
+<option>Borderlands xbox 360</option>
+<option>Battlefield 4 xbox 360</option>
+<option>Battlefield Hardline xbox 360</option>
+<option>Call Of Duty:Ghosts xbox 360</option>
+<option>Call Of Duty:Advanced Warfare xbox 360 </option>
+<option>Destiny xbox 360</option>
+<option>Call Of Duty 4:Modern Warfare xbox 360 </option>
+<option>FIFA 15 xbox 360</option>
+<option>FIFA 16 xbox 360</option>
+<option>Grand Theft Auto 5 xbox 360</option>
+<option>Grand Theft Auto xbox 360</option>
+<option>Fable Legends xbox 360</option>
+<option>Tomb Raider xbox 360</option>
+<option>Titan Fall xbox 360</option>
+<option>Mortal Kombat Xxbox 360</option>
+<option>Batman:Arkham Asylum xbox 360</option>
+<option>Dark Souls xbox 360</option>
+<option>Dark Souls 2 xbox 360</option>
+<option>The Witcher 3:Wild Hunt xbox 360</option>
+<option>Evolve xbox 360</option>
+<option>Dying Light  xbox 360</option>
+<option>Dead Rising 3 xbox 360</option>
+<option>Watch Dogs xbox 360</option>
+<option>Call Of Duty:Black Op xbox 360</option>
+<option>Call Of Duty 4:Modern Warfare/Game Of The Year Edition xbox 360</option>
+</select>
+Quantity: <input name="quantity" type="text" /> 
+<input type="submit" />
+      </form>
+<h2>Start search for Xbox orginal and ps2 games:</h2>
+<form> 
+ Search:<input type="text" onkeyup="showHint(this.value)">
+</form>
+<p>Games: <span id="txtHint"></span></p>
+  
+      
+      
+      
+      </div>
+    </div>
+  </div>  
+  <br></br>
+  
+  <div id="media" class="container-fluid text-center bg-grey">
+    <h2>Twitter</h2>
+  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/VTankards" data-widget-id="667710213101920256">Tweets by @VTankards</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ <h2>Youtube</h2>
+  <iframe width="600" height="400" src="https://www.youtube.com/embed/jhgW1Oy4Nl8" frameborder="0" allowfullscreen></iframe>
+  <br></br>
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"Nice selection of games"<br><span style="font-style:normal;">John Ford,Gamer</span></h4>
+      </div>
+      <div class="item">
+        <h4>"One word... WOW!!"<br><span style="font-style:normal;">Papa john, Salesman, Rep Inc</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Friendly and Helpful plenty of things for my cousin"<br><span style="font-style:normal;">Niko Belic, Gamer</span></h4>
+      </div>
+	  <div class="item">
+        <h4>"Pretty Dank"<br><span style="font-style:normal;">DankLord</span></h4>
+      </div>
+	  <div class="item">
+        <h4>"Better than Life"<br><span style="font-style:normal;">Jeebus</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Subscriptions</h2>
+    <h4>Choose a subscription plan that works for you</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Loki</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>FREE</strong> Viking Gaming Account!</p>
+          <p><strong>30 DAY FREE TRIAL</strong> to Amazon Prime!</p>
+          <p><strong>FREE</strong> Newsletter!</p>
+          
+        </div>
+        <div class="panel-footer plan">
+          <h3>FREE</h3>
+         
+          <button class="btn btn-lg" onclick="lokiButton()">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Thor</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>3 MONTH ACCESS</strong> to an Admin Viking Gaming Account!</p>
+          <p><strong>3 MONTH SUBSCRIPTION</strong> to Amazon Prime!</p>
+          <p><strong>EARLY ACCESS</strong> to upcoming deals!</p>
+          <p><strong>FREE</strong> Newsletter</p>
+       
+        </div>
+        <div class="panel-footer plan">
+          <h3>&euro;15</h3>
+          <h4>every 3 months</h4>
+          <button class="btn btn-lg" onclick="thorButton()">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Odin</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>1 YEAR ACCESS</strong> to an Admin Viking Gaming Account!</p>
+          <p><strong>1 YEAR SUBSCRIPTION</strong> to Amazon Prime!</p>
+          <p><strong>FIRST CHOICE</strong> on what goes on sale!</p>
+          <p><strong>EARLY ACCESS</strong> to upcoming deals!</p>
+          <p><strong>FREE</strong> Newsletter!</p>
+        </div>
+        <div class="panel-footer plan">
+          <h3>&euro;59.99</h3>
+          <h4>annually</h4>
+          <button class="btn btn-lg" onclick="odinButton()">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+<br></br>
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <a href="https://gaming-x13330431.c9users.io/MyRSS.xml" target="_blank"> <img src="rss.jpg" class="img-rounded" alt="viking" width="66" height="34"> </a>
+  <div class="row">
+    <div class="col-sm-5">
+      <h4><p>Contact us and we'll get back to you within 24 hours.</p></h4>
+      <h4><p><span class="glyphicon glyphicon-map-marker"></span> Dublin Ireland</p></h4>
+      <h4><p><span class="glyphicon glyphicon-phone"></span> +353 09867432</p></h4>
+      <h4><p><span class="glyphicon glyphicon-envelope"></span> vikinggaming420@gmail.com</p></h4> 
+    </div>
+    <!--https://bootstrapbay.com/blog/working-bootstrap-contact-form/  -->
+    <div class="col-sm-7 slideanim">
+     		<h1 class="page-header text-left">Send Us a Message</h1>
+				<form class="form-horizontal" role="form" method="post" action="FORM.php">
+					<div class="form-group">
+						<label for="name" class="col-sm-2 control-label">Name</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email" class="col-sm-2 control-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+							<?php echo "<p class='text-danger'>$errEmail</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message" class="col-sm-2 control-label">Message</label>
+						<div class="col-sm-10">
+							<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+							<?php echo "<p class='text-danger'>$errMessage</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+							<?php echo "<p class='text-danger'>$errHuman</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php echo $result; ?>	
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</div>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+   
+ <div id="map"></div>
+<!-- Add Google Maps -->
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+	
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  // Slide in elements on scroll
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
