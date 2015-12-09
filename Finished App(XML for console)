@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="glistCSS.xsl"?>
+<XBOXONE>
+
+<CONSOLE>
+    <TYPE>Xbox One</TYPE>
+    <PRICE>350.90</PRICE>
+    <YEAR>2013</YEAR>
+  </CONSOLE>
+  <CONSOLE>
+    <TYPE>Xbox 360</TYPE>
+    <PRICE>65.90</PRICE>
+    <YEAR>2005</YEAR>
+  </CONSOLE>
+    <CONSOLE>
+    <TYPE>Xbox Original</TYPE>
+    <PRICE>70.00</PRICE>
+    <YEAR>2002</YEAR>
+  </CONSOLE>
+  
+  <CONSOLE>
+    <TYPE>PS4</TYPE>
+    <PRICE>300.90</PRICE>
+    <YEAR>2013</YEAR>
+  </CONSOLE> 
+  <CONSOLE>
+    <TYPE>PS3</TYPE>
+    <PRICE>250.00</PRICE>
+    <YEAR>2005</YEAR>
+  </CONSOLE>
+   <CONSOLE>
+    <TYPE>PS2</TYPE>
+    <PRICE>60.00</PRICE>
+    <YEAR>2002</YEAR>
+  </CONSOLE>
+  </XBOXONE>
+ 
