@@ -1,0 +1,48 @@
+<?php
+// Array with names
+$a[] = "GUN Price:10.00XBOXx";
+$a[] = "Halo Price:13.00XBOXx";
+$a[] = "Halo 2 Price:15.00XBOXx";
+$a[] = "Call of duty Price:9.00XBOXx";
+$a[] = "Call of duty 2Price:9.0	XBOXx";
+$a[] = "Need for speedPrice:10.00XBOXx";
+$a[] = "Need for speed 2 Price:10.00XBOXx";
+$a[] = "Destroy all humansPrice:13.00XBOXx";
+$a[] = "FIFA 2002Price:9.00XBOXx";
+$a[] = "FIFA 2003Price:8.00XBOXx";
+$a[] = "FIFA 2004Price:10:00XBOXx";
+$a[] = "GUNPrice:10.00	ps2";
+$a[] = "HaloPrice:13.00	ps2";
+$a[] = "Halo 2  Price:15.00ps2";
+$a[] = "Call of duty Price:9.00	ps2";
+$a[] = "Call of duty 2 Price:9.00ps2";
+$a[] = "Need for speedPrice:10.00ps2";
+$a[] = "Need for speed 2Price:10.00ps2";
+$a[] = "Destroy all humansPrice:13.00ps2";
+$a[] = "FIFA 2002Price:9.00ps2";
+$a[] = "FIFA 2003Price:8.00ps2";
+$a[] = "FIFA 2004Price:10:00ps2";
+
+// get the q parameter from URL
+$q = $_REQUEST["q"];
+
+$hint = "";
+
+// lookup all hints from array if $q is different from "" 
+if ($q !== "") {
+    $q = strtolower($q);
+    $len=strlen($q);
+    foreach($a as $name) {
+        if (stristr($q, substr($name, 0, $len))) {
+            if ($hint === "") {
+                $hint = $name;
+            } else {
+                $hint .= ", $name";
+            }
+        }
+    }
+}
+
+// Output "no suggestion" if no hint was found or output correct values 
+echo $hint === "" ? "no suggestion" : $hint;
+?>
