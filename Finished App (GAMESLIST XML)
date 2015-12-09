@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="glistCSS.xsl" ?>
+    <GAMESLIST>
+
+        <GAME>
+            <TITLE>Assassin's Creed IV: Black Flag</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Assassin's Creed :Unity</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Assassin's Creed :Syndicate</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>63.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Borderlands</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>66.90</PRICE>
+
+        </GAME>
+
+        <GAME>
+            <TITLE>Battlefield 4</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>55.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Battlefield Hardline</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty:Ghosts</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty:Advanced Warfare</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>60.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>20.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Destiny</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>64.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty 4:Modern Warfare</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>30.00</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>FIFA 15</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>FIFA 16</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>68.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Grand Theft Auto 5</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Grand Theft Auto </TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>36.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Fable Legends</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>61.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Tomb Raider</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Titan Fall</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Mortal Kombat X</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>69.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>MineCraft:Xbox 360 edition</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>34.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Batman:Arkham Asylum</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>70.96</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Dark Souls </TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>45.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dark Souls 2 </TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>43.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>The Witcher 3:Wild Hunt</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>52.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Evolve</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>56.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dying Light</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>54.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dead Rising 3</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>70.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Watch Dogs</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>56.80</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty:Black Ops</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>36.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty 4:Modern Warfare/Game Of The Year Edition </TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>60.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>MineCraft:Story Mode</TITLE>
+            <CONSOLE>PS4</CONSOLE>
+            <PRICE>56.90</PRICE>
+        </GAME>
+        <GAME>
+            <TITLE>Assassin's Creed IV: Black Flag</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>65.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Assassin's Creed :Unity</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>65.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+            <TITLE>Assassin's Creed :Syndicate</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>63.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Borderlands</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>66.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Battlefield 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>55.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Battlefield Hardline</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>65.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Call Of Duty:Ghosts</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>65.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Call Of Duty:Advanced Warfare</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>60.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 3 </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>20.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Destiny</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>64.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty 4:Modern Warfare</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>30.00</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>FIFA 15</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>FIFA 16</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>68.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Grand Theft Auto 5</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Grand Theft Auto 4 </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>36.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Fable Legends</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>61.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Tomb Raider</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Titan Fall</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Mortal Kombat X</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>69.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>MineCraft:Xbox 360 edition</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>34.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Batman:Arkham Asylum</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>70.96</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dark Souls </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>45.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dark Souls 2 </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>43.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>The Witcher 3:Wild Hunt</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>52.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Evolve</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>56.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dying Light</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>54.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dead Rising 3</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>70.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Watch Dogs</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>56.80</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Gears Of War 4</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>76.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Gears oF War:Remastered </TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>81.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>MineCraft:Story Mode</TITLE>
+            <CONSOLE>Xbox 360</CONSOLE>
+            <PRICE>56.90</PRICE>
+        </GAME>
+
+
+        <GAME>
+            <TITLE>Assassin's Creed IV: Black Flag</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Assassin's Creed :Unity</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>65.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+            <TITLE>Assassin's Creed :Syndicate</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>63.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Borderlands</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>66.90</PRICE>
+
+        </GAME>
+        <GAME>
+            <TITLE>Battlefield 4</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>55.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Battlefield Hardline</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty:Ghosts</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty:Advanced Warfare</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>60.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>20.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Destiny</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>64.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty 4:Modern Warfare</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>30.00</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>FIFA 15</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>FIFA 16</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>68.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Grand Theft Auto 5</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Grand Theft Auto </TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>36.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Halo 4</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Fable Legends</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>61.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Tomb Raider</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Titan Fall</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Mortal Kombat X</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>69.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>MineCraft:Xbox 360 edition</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>34.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Batman:Arkham Asylum</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>70.96</PRICE>
+
+
+        </GAME>
+        <GAME>
+            <TITLE>Dark Souls </TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>45.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dark Souls 2 </TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>43.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>The Witcher 3:Wild Hunt</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>52.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Evolve</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>56.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dying Light</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>54.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Dead Rising 3</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>70.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Watch Dogs</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>56.80</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty:Black Ops</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>36.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>Call Of Duty 4:Modern Warfare/Game Of The Year Edition </TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>60.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <TITLE>MineCraft:Story Mode</TITLE>
+            <CONSOLE>PS3</CONSOLE>
+            <PRICE>56.90</PRICE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE> Assassin's Creed IV: Black Flag </TITLE>
+            <PRICE> 65.90 </PRICE>
+        </GAME>
+
+        <GAME>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Assassin's Creed :Unity</TITLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Assassin's Creed :Syndicate</TITLE>
+            <PRICE>63.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Borderlands</TITLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Battlefield 4</TITLE>
+            <PRICE>55.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Battlefield Hardline</TITLE>
+            <PRICE>65.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Call Of Duty:Ghosts</TITLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Call Of Duty:Advanced Warfare</TITLE>
+            <PRICE>60.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Call Of Duty:Black Ops 3</TITLE>
+            <PRICE>63.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Destiny</TITLE>
+            <PRICE>64.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Fallout 4</TITLE>
+            <PRICE>65.90</PRICE>
+        </GAME>
+
+        <GAME>
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>FIFA 15</TITLE>
+            <PRICE>66.90</PRICE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>FIFA 16</TITLE>
+            <PRICE>68.90</PRICE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Grand Theft Auto 5</TITLE>
+            <PRICE>66.90</PRICE>
+
+            <GENRE>Rpg/ACtion</GENRE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Halo 4</TITLE>
+            <PRICE>66.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Halo 5:Guardians</TITLE>
+            <PRICE>66.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Bioshock</TITLE>
+            <PRICE>66.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Fable Legends</TITLE>
+            <PRICE>61.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Tomb Raider</TITLE>
+            <PRICE>66.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Titan Fall</TITLE>
+            <PRICE>66.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Mortal Kombat X</TITLE>
+            <PRICE>69.90</PRICE>
+
+
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>MineCraft:Xbox One edition</TITLE>
+            <PRICE>34.90</PRICE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Batman:Arkham Knight</TITLE>
+            <PRICE>70.96</PRICE>
+
+
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dark Souls 2</TITLE>
+            <PRICE>45.90</PRICE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dark Souls 3 </TITLE>
+            <PRICE>70.90</PRICE>
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>The Witcher 3:Wild Hunt</TITLE>
+            <PRICE>52.90</PRICE>
+
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Evolve</TITLE>
+            <PRICE>56.90</PRICE>
+
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dying Light</TITLE>
+            <PRICE>54.90</PRICE>
+
+
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Dead Rising 3</TITLE>
+            <PRICE>70.90</PRICE>
+        </GAME>
+
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Watch Dogs</TITLE>
+            <PRICE>56.80</PRICE>
+
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Gears Of War 4</TITLE>
+            <PRICE>76.90</PRICE>
+
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>Gears oF War:Remastered </TITLE>
+            <PRICE>81.90</PRICE>
+
+        </GAME>
+        <GAME>
+
+            <CONSOLE>Xbox One</CONSOLE>
+            <TITLE>MineCraft:Story Mode</TITLE>
+            <PRICE>56.90</PRICE>
+
+        </GAME>
+
+    </GAMESLIST>
