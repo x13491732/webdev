@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <rss version="2.0">
+
+ <channel>
+ <title>Viking Gaming</title>
+ <link>https://gaming-x13330431.c9users.io/vikinggaming.php.</link>
+ <description>Main page</description>
+ <language>en-us</language>
+
+<item>
+ <title>Game</title>
+ <link>https://gaming-x13330431.c9users.io/vikinggaming.php#products</link>
+ <description>
+ list of our games
+ </description>
+ </item>
+ <item>
+ <title>Consoles</title>
+ <link>https://gaming-x13330431.c9users.io/vikinggaming.php#Consoles</link>
+ <description>
+ we have some nice consoles
+ </description>
+ </item>
+ </channel>
+ </rss>
